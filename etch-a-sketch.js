@@ -1,5 +1,6 @@
 const grids = document.querySelectorAll('.grid');
 
+
 function blackPen() {
   grids.forEach(grid => {
     grid.addEventListener('mouseover', () => {
@@ -27,6 +28,13 @@ function penSelector() {
   eraser.addEventListener('click', () => {
     erase();
   });
+}
+
+function fourBox() {
+  const foursBtn = document.querySelector('#fours')
+  foursBtn.addEventListener('click', () =>{
+    
+  })
 }
 
 penSelector();
